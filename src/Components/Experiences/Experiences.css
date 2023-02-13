@@ -6,3 +6,8 @@ ul {
 li {
     margin-right: 10px;
 }
+
+.scroll {
+    height: auto;
+    overflow-x: scroll;
+}

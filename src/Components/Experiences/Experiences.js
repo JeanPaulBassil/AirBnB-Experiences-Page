@@ -26,8 +26,10 @@ export default function Experiences(){
         
     })
     return (
-        <ul>
-            {output}
-        </ul>
+        <nav className="scroll">
+            <ul>
+                {output}
+            </ul>
+        </nav>    
     )
 }
