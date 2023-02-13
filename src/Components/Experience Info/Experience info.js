@@ -6,7 +6,7 @@ export default function ExperienceInfo({rating, numberOfRatings, country, experi
         <div>
            <img className='star' src={Star} alt='Star'/>
            <p className='rating-number'>{rating}</p>
-           <p className='number-of-ratings'>({numberOfRatings}) • USA</p>
+           <p className='number-of-ratings'>({numberOfRatings}) • {country}</p>
            <p className='experience-name'>{experienceName}</p>
            <p className='experience-price'><b>From ${experiencePrice}</b> / person</p>
         </div>
