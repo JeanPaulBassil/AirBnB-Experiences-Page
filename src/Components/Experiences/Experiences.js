@@ -1,32 +1,33 @@
 import Experience from "../Experience/Experience";
 import './Experiences.css'
-import Photo from '../../Images/image 12.png';
+import data from '../../data';
 
 
 export default function Experiences(){
-    const first = {
-        img: Photo,
-        status: 'SOLD OUT',
-        rating: 5.0,
-        numberOfRatings: 6,
-        country: 'USA',
-        experienceName: "Life lessons with Katie Zaferes",
-        experiencePrice: 136
-    };
+    
+
+    const output = data.map(attr => {
+        if (attr.openSpots == 0) attr.status = 'SOLD OUT';
+        else attr.status = 'AVAILABLE';
+        return (
+        <li>
+            <Experience img={attr.img}
+            status={attr.status}    
+            rating={attr.rating}
+            numberOfRatings={attr.numberOfRatings}
+            country={attr.country}
+            experienceName={attr.experienceName}
+            experiencePrice={attr.experiencePrice}
+            />
+        </li>
+        )
+        
+        
+        
+    })
     return (
         <ul>
-            <li><Experience 
-                img={Photo}
-                status='SOLD OUT'
-                rating= {5.0}
-                numberOfRatings= {6}
-                country= 'USA'
-                experienceName= "Life lessons with Katie Zaferes"
-                experiencePrice= {136}
-                />
-            </li>
-            <li><Experience /></li>
-            <li><Experience /></li>
+            {output}
         </ul>
     )
 }

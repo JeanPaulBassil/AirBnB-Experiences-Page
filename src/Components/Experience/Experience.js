@@ -1,6 +1,7 @@
 import Preview from "../Preview/Preview";
 import ExperienceInfo from "../Experience Info/Experience info";
 
+
 export default function Experience({img, status, rating, numberOfRatings, country, experienceName, experiencePrice}){
     return (
         <div>
