@@ -1,0 +1,29 @@
+.star {
+    height: 14px;
+    width: 13px;
+}
+
+.rating-number {
+    display: inline;
+    margin-left: 5px;
+    font-size: 12px;
+    height: 13px;
+    width: 18px;
+}
+
+.number-of-ratings {
+    display: inline;
+    color: #918E9B;
+    font-size: 12px;
+    margin-left: 2px;
+}
+
+.experience-name {
+    font-size: 12px;
+    margin: 0px;
+}
+
+.experience-price {
+    font-size: 12px;
+    margin-top: 2px;
+}

@@ -1,0 +1,14 @@
+.preview{
+    width: 176px;
+    height: 235px;
+    margin-right: 10px;
+    background-image: url('../../Images/image\ 12.png');
+    background-size: contain;
+    /* margin-top: 0; */
+}
+
+.stat {
+    margin: 10px;
+    position: absolute;
+    
+}
