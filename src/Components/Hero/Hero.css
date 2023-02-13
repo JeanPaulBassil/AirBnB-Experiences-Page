@@ -1,8 +1,8 @@
 .pix {
+    display: block;
+    margin: auto;
     width: 395px;
     height: 230px;
-    margin-top: 15px;
-    margin-left: 17%;
 }
 
 .header {

@@ -2,13 +2,19 @@
     width: 176px;
     height: 235px;
     margin-right: 10px;
-    background-image: url('../../Images/image\ 12.png');
     background-size: contain;
-    /* margin-top: 0; */
+}
+
+.photoCont {
+    position: relative;
 }
 
 .stat {
     margin: 10px;
     position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     
 }
